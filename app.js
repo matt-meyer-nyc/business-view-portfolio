@@ -1,7 +1,7 @@
 var express = require('express'),
     PORT    = process.env.PORT || 3000,
     app     = express();
-app.use(express.static('./dist'));
+app.use(express.static('./dist/app'));
 app.listen(PORT, function (err) {
   if (err) {
     console.log('error starting server',err);
