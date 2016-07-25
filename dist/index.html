@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="app/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/app/css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="app/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="#bio" onclick=$("#menu-close").click();>Bio</a>
+            </li>
+            <li>
+                <a href="#skills" onclick=$("#menu-close").click();>Skills</a>
+            </li>
+            <li>
+                <a href="#music" onclick=$("#menu-close").click();>Music</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Matt Meyer</h1>
+            <h3>Full-Stack Web Developer &amp; Musician</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2> "Somewhere, something incredible is waiting to be known"</h2>
+                    <p class="lead"><a target="_blank" href="http://www.carlsagan.com/">-Carl Sagan</a></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>About Me</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-image fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Portfolio</strong>
+                                </h4>
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                                <a href="#portfolio" class="btn btn-light">My Work</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-smile-o fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Bio</strong>
+                                </h4>
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                                <a href="#bio" class="btn btn-light">Brief History</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-key fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Skills</strong>
+                                </h4>
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                                <a href="#skills" class="btn btn-light">Front/Back End</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-music fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Music</strong>
+                                </h4>
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                                <a href="#" class="btn btn-light">Original Music</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <!-- <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Vertically Centered Text</h1>
+        </div>
+    </aside> -->
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                              <a href="https://chaminade-website.herokuapp.com/#/home-page?_k=e25tk6" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="http://s20.postimg.org/cym5byd7h/Screen_Shot_2016_06_01_at_3_43_48_PM.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                              <a href="https://the-sequence.herokuapp.com/#/?_k=e27prn" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="http://s32.postimg.org/7ar5f7wph/Screen_Shot_2016_05_16_at_12_56_54_PM.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                              <a href="https://gig-on.herokuapp.com/" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="https://s31.postimg.org/4vv6hwszv/Screen_Shot_2016_07_05_at_10_23_05_PM.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <!-- <a href="https://gig-on.herokuapp.com/" target="_blank"> -->
+                                    <img class="img-portfolio img-responsive" src="http://s32.postimg.org/70i2nlpat/Screen_Shot_2016_04_20_at_1_53_26_PM.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <!-- <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside> -->
+
+    <!-- Bio -->
+    <section id="bio">
+      <div clas"container">
+        <img src="http://s20.postimg.org/jzmoxreal/Popped_Color_Headshot.jpg">
+        <h2>What do you get when you cross a lifetime's passion for music, a lush professional background and unparalleled web development training? If your answer is this guy in a nutshell, well...call me a legume. At heart, I love to create and collaborate. Heroes of mine range from Neil deGrasse Tyson to Tim Ferriss, with the common thread being my fascination with how passion combines with innovation and optimization. My fascination grew so huge that I couldn't sit on the sidelines anymore - I had to throw my hat in the ring.</h2>
+         <div id="button">
+         </div>
+         <!-- /.button -->
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <section id="skills">
+        <div class="container">
+         <span class="icons" >
+          <i id="icon" class="devicon-javascript-plain colored"></i>
+          <i id="icon" class="devicon-html5-plain-wordmark colored"></i>
+          <i id="icon" class="devicon-css3-plain-wordmark colored"></i>
+          <i id="icon" class="devicon-react-original-wordmark colored"></i>
+          <i id="icon" class="devicon-nodejs-plain colored"></i>
+          <i id="icon" class="devicon-jquery-plain-wordmark colored"></i>
+          <i id="icon" class="devicon-ruby-plain-wordmark colored"></i>
+          <i id="icon" class="devicon-rails-plain-wordmark colored"></i>
+          <i id="icon" class="devicon-mongodb-plain-wordmark colored"></i>
+         </span>
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+      <!-- Music -->
+    <section id="music">
+      <div class"container">
+        <h2 id="myName">Matt Jacob</h2>
+        <img src="https://s32.postimg.org/mgsv8ld9h/Cover_Photo.jpg"/>
+          <div id="songsContainer">
+            <div id="rainbowsDiv">
+             <audio id="rainbowsPlay" src="app/music/Rainbows Wild copy.mp3" type="audio/mpeg" controls></audio>
+              <p id="title-rainbows"><b>Rainbows Wild</b></p>
+            </div>
+            <div id="rockingchairDiv">
+             <audio id="rockingchairPlay" src="app/music/Rocking Chair.mp3" type="audio/mpeg" controls></audio>
+              <p id="title-rockingchair"><b>Rocking Chair</b></p>
+            </div>
+            <div id="creedenceDiv">
+             <audio id="creedencePlay" src="app/music/Creedence.mp3" type="audio/mpeg" controls></audio>
+              <p id="title-creedence"><b>Creedence</b></p>
+            </div>
+            <div id="cantbebothDiv">
+             <audio id="cantbebothPlay" src="app/music/Can't Be Both.mp3" type="audio/mpeg" controls></audio>
+              <p id="title-cantbeboth"><b>Can't Be Both</b></p>
+            </div>
+            <div id="lullabyDiv">
+            <audio id="lullabyPlay" src="app/music/Lullaby MASTERED 6_23 copy.mp3" type="audio/mpeg" controls></audio>
+             <p id="title-lullaby"><b>Lullaby For Loved Ones</b></p>
+            </div>
+          </div>
+          <div id="bioCont">
+           <!-- <img id="brick" src='https://s31.postimg.org/3o4m2i45n/brick_BG1.png'/> -->
+             <h2 id="bio">I've been playing music since I was 6. I'm a composer, multi-instrumentalist and singer with a voice often described as being akin to Tom Waits.
+                 My love of creating music can be described as both my sanity and my madness, and my passion for performing extends not only to stages around the world, but
+                 also to organizations like Musicians On Call, which allows me the opportunity to cheer up children stuck in hospitals.</br></br>
+
+                 My instruments: guitar, piano, banjo, harmonica, ukulele, bass, congas, bongos, ceiling fan
+             </h2>
+          </div>
+      </div>
+      <!-- /.container -->
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Matt Meyer</strong>
+                    </h4>
+                        <br>New York, NY</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (603) 339-1045</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:mattjacobnyc@gmail.com">name@example.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/matt.meyer.50115" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mattmeyernyc" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.github.com/matt-meyer-nyc" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Matt Jacob Meyer 2016</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="app/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="app/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+
+
+
+
+
+
+
+
+
+    // // Disable Google Maps scrolling
+    // // See http://stackoverflow.com/a/25904582/1607849
+    // // Disable scroll zooming and bind back the click event
+    // var onMapMouseleaveHandler = function(event) {
+    //     var that = $(this);
+    //     that.on('click', onMapClickHandler);
+    //     that.off('mouseleave', onMapMouseleaveHandler);
+    //     that.find('iframe').css("pointer-events", "none");
+    // }
+    // var onMapClickHandler = function(event) {
+    //         var that = $(this);
+    //         // Disable the click handler until the user leaves the map area
+    //         that.off('click', onMapClickHandler);
+    //         // Enable scrolling zoom
+    //         that.find('iframe').css("pointer-events", "auto");
+    //         // Handle the mouse leave event
+    //         that.on('mouseleave', onMapMouseleaveHandler);
+    //     }
+    //     // Enable map zooming with mouse scroll when the user clicks the map
+    // $('.map').on('click', onMapClickHandler);
+    </script>
+<script type="text/javascript" src="bundle.js"></script></body>
+
+</html>
