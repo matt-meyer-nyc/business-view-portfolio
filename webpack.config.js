@@ -1,3 +1,4 @@
+var bootstrap-loader = require('bootstrap-loader');
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
@@ -9,10 +10,11 @@ var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
   devtool: 'eval',
   entry: [
+    'bootstrap-loader',
     './app/index.js'
   ],
   output: {
-    path: './dist',
+    path: path.join(__dirname, 'dist'),
     filename: 'bundle.js'
   },
   plugins: [
