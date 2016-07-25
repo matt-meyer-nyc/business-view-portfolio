@@ -1,4 +1,3 @@
-var bootstrapLoader = require('bootstrap-loader');
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
@@ -10,7 +9,6 @@ var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
   devtool: 'eval',
   entry: [
-    'bootstrap-loader',
     './app/index.js'
   ],
   output: {
