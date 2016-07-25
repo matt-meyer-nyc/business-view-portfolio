@@ -1,4 +1,4 @@
-var bootstrap-loader = require('bootstrap-loader');
+require('bootstrap-loader');
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
