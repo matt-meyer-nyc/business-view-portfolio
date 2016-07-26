@@ -381,7 +381,7 @@ background-image: url(https://s31.postimg.org/3o4m2i45n/brick_BG1.png);
   color: white;
   font-family: 'Arizonia', cursive;
   font-size: 80px;
-  z-index: 10;
+  /*z-index: 10;*/
   position: relative;
   top: 200px;
   right: 150px;
