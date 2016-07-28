@@ -317,6 +317,10 @@ background-color: #4436e0;
     margin: 10px;
 }
 
+#portfolio img:hover {
+  opacity: .7;
+}
+
 /* Bio */
 
 #bio {
