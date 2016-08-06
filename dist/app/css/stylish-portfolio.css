@@ -225,7 +225,7 @@ hr.small {
   text-decoration: none;
 }
 
-#stage:hover {
+#spinner:hover {
   text-decoration: none;
   opacity: .2;
   -webkit-animation-play-state: paused;
