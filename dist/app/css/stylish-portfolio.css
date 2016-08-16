@@ -304,8 +304,8 @@ background-color: #4436e0;
 }
 
 .fix {
-  height: 100%;
-  width: auto;
+  height: 300px;
+  width: 400px;
 }
 
 .img-portfolio:hover {
