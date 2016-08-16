@@ -303,6 +303,11 @@ background-color: #4436e0;
     width: 400px;
 }
 
+.fix {
+  height: 100%;
+  width: auto;
+}
+
 .img-portfolio:hover {
     opacity: 0.8;
 }
